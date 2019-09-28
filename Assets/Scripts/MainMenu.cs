@@ -16,12 +16,12 @@ public class MainMenu : MonoBehaviour
 
     public Button quitButton;
 
-    public string newGameSceneName;
+    public string Clubhouse;
 
     public void NewGame()
     {
         Debug.Log("Start Game");
-        SceneManager.LoadScene(newGameSceneName);
+        SceneManager.LoadScene("Clubhouse");
     }
 
     public void Credits()
