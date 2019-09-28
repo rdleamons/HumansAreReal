@@ -28,5 +28,7 @@ public class CharMover : MonoBehaviour
         pos.x += speed * dirX;
         pos.y += speed * dirY;
         transform.position = pos;
+
     }
+
 }
