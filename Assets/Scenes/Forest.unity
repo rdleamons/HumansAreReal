@@ -537,6 +537,11 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7932781082475325403, guid: 62cb6f2d781d6ff4fa581af763b32284,
+        type: 3}
+      propertyPath: canMove
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62cb6f2d781d6ff4fa581af763b32284, type: 3}
 --- !u!1001 &1329658825

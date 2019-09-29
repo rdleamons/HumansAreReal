@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class CharMover : MonoBehaviour
 {
-    public float speed;                //Floating point variable to store the player's movement speed.
+    public bool canMove;
 
+    public float speed;                //Floating point variable to store the player's movement speed.
     private Rigidbody2D rb2d;        //Store a reference to the Rigidbody2D component required to use 2D Physics.
 
     // Use this for initialization
@@ -18,6 +19,11 @@ public class CharMover : MonoBehaviour
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
     void Update()
     {
+        if(!canMove)
+        {
+            return;
+        }
+
         //Store the current horizontal input in the float moveHorizontal.
         float dirX = Input.GetAxis("Horizontal");
 
