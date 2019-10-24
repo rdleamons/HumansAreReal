@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2854495808767327757}
   - component: {fileID: 7425565682081782854}
   - component: {fileID: 3063007529087487767}
+  - component: {fileID: 3105662957256795166}
   m_Layer: 0
   m_Name: Sam
   m_TagString: Player
@@ -97,6 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1307c10aa3968144bbccfad8aa959c8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canMove: 0
   speed: 0.15
 --- !u!114 &1536646180244937569
 MonoBehaviour:
@@ -176,3 +178,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &3105662957256795166
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7932781082475325402}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3c2b3fe47ea589d4685c469c3290b421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
