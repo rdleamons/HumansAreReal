@@ -18,6 +18,13 @@ public class MainMenu : MonoBehaviour
 
     public string Clubhouse;
 
+    public int evidenceCount = 0;
+
+    private void Start()
+    {
+        PlayerPrefs.SetInt("evidenceCount", 0);
+    }
+
     public void NewGame()
     {
         Debug.Log("Start Game");
