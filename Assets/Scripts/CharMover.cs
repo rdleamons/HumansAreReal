@@ -15,7 +15,6 @@ public class CharMover : MonoBehaviour
     {
         //Get and store a reference to the Rigidbody2D component so that we can access it.
         rb2d = GetComponent<Rigidbody2D>();
-
         animator = GetComponent<Animator>();
     }
 
@@ -33,19 +32,21 @@ public class CharMover : MonoBehaviour
         //Store the current vertical input in the float moveVertical.
         float dirY = Input.GetAxis("Vertical");
 
+
         Vector3 pos = transform.position;
         pos.x += speed * dirX;
         pos.y += speed * dirY;
         transform.position = pos;
 
-        Animate(dirX, dirY);
+        Animate(dirX, dirY, speed);
 
     }
 
-    public void Animate(float dirX, float dirY)
+    public void Animate(float dirX, float dirY, float speed)
     {
         animator.SetFloat("X", dirX);
         animator.SetFloat("Y", dirY);
+        animator.SetFloat("Speed", speed);
     }
 
 }

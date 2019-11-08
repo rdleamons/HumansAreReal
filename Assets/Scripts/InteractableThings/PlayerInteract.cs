@@ -16,7 +16,6 @@ public class PlayerInteract : MonoBehaviour
     {
         SetCountText();
         winText.text = "";
-
     }
 
     private void OnDestroy()
@@ -41,6 +40,7 @@ public class PlayerInteract : MonoBehaviour
             if(evidenceCount >= 4)
             {
                 winText.text = "Congrats! You've gathered enough evidence!";
+                //Load "you win!" menu
             }
         }else if(Input.GetButtonDown("Interact") && NPC)
         {
