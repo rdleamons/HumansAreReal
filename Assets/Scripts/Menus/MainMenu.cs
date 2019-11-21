@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour
 
     public Button quitButton;
 
-    public string Clubhouse;
+    public string Story;
 
     public int evidenceCount = 0;
 
@@ -28,7 +28,7 @@ public class MainMenu : MonoBehaviour
     public void NewGame()
     {
         Debug.Log("Start Game");
-        SceneManager.LoadScene("Clubhouse");
+        SceneManager.LoadScene("Story");
     }
 
     public void Credits()

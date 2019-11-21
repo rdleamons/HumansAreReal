@@ -761,11 +761,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac4f40dda9106d74285897019c5d7552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGameButton: {fileID: 0}
-  creditsButton: {fileID: 0}
-  htpButton: {fileID: 0}
-  quitButton: {fileID: 0}
-  Clubhouse: 
+  newGameButton: {fileID: 837315623}
+  creditsButton: {fileID: 269907964}
+  htpButton: {fileID: 1439795584}
+  quitButton: {fileID: 1594558351}
+  Story: 
   evidenceCount: 0
 --- !u!114 &887260534
 MonoBehaviour:
@@ -779,11 +779,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac4f40dda9106d74285897019c5d7552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGameButton: {fileID: 0}
-  creditsButton: {fileID: 0}
-  htpButton: {fileID: 0}
-  quitButton: {fileID: 0}
-  Clubhouse: 
+  newGameButton: {fileID: 837315623}
+  creditsButton: {fileID: 269907964}
+  htpButton: {fileID: 1439795584}
+  quitButton: {fileID: 1594558351}
+  Story: 
   evidenceCount: 0
 --- !u!1 &1439795582
 GameObject:
